@@ -1,0 +1,60 @@
+/* style.css */
+
+/* 
+Theme Name: AGK Theme
+Author: Ali Gauhar
+*/
+header {
+    background: rgb(216, 107, 107);
+    height: 30px;
+    width: 100%;
+}
+body {
+    background: black;
+}
+.no, .email{
+display:inline;
+margin-left: 5%;
+}
+/* Custom styles for the sidebar */
+.sidebar {
+    margin-top: 7px;
+    min-height: 100vh; /* Ensure the sidebar takes the full height of the viewport */
+    width: 250px; /* Set the fixed width of the sidebar */
+    box-shadow: 25px 0 35px rgba(194, 103, 129, 0.775);
+}
+
+.logo {
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar-buttons {
+    padding: 10px;
+    text-align: center;
+}
+.topnav{
+    margin-top: 7px;
+    width: 80.9%;
+    margin-left:2.4%;
+    }
+
+/* Reduce sidebar width on mobile view */
+@media (max-width: 1000px) {
+    .sidebar {
+        width: 30%; /* Change the width to 100% on mobile view */
+    }
+    .topnav{
+        width:72%;
+        margin-left: 3%;
+    }
+
+}
+.menu, .navtext{
+    color: white;
+    text-align:center;
+    margin-top: 10px;
+}
+.navtext{
+    color:white;
+}
